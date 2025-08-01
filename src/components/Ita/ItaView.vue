@@ -9,7 +9,7 @@
                     โดยเป็นการประเมินระดับการเปิดเผยข้อมูลต่อสาธารณะของสถานศึกษา
                     เพื่อให้ประชาชนสามารถเข้าถึงข้อมูลในเว็บไซต์หลักของสถานศึกษาได้ ใน 2 ตัวชี้วัด ได้แก่</h6>
             </div> -->
-            
+
             <div class="card shadow mx-2 p-2 text-white" style="background-color: #0C39B3;">
                 <div class="card-header">
                     <h3 class="card-title fw-medium text-center">
@@ -96,12 +96,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -130,12 +132,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections2" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -161,12 +165,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections3" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -192,12 +198,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections4" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -223,12 +231,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody class="table-group-divider">
 
                     <tr v-for="item in subsections5" :key="item.id">
@@ -258,12 +268,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections6" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -289,12 +301,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections7" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -323,12 +337,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections8" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -357,12 +373,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections9" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -388,12 +406,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections10" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -432,12 +452,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections11" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
@@ -463,12 +485,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
 
                 <tbody>
                     <tr v-for="item in subsections12" :key="item.id">
@@ -498,12 +522,14 @@
 
         <div class="container mt-4 sarabun-regular">
             <table class="table table-striped table-hover">
-                <tr class="text-white fw-lighter" style="background-color: #801905;">
-                    <td class="p-2">ข้อ</td>
-                    <td class="p-2">ข้อมูล</td>
-                    <td class="p-2">รายละเอียดองค์ประกอบ</td>
-                    <td class="p-2">การเผยแพร่ข้อมูล</td>
-                </tr>
+                <thead>
+                    <tr class="text-white fw-lighter table-primary" style="background-color: #801905;">
+                        <td class="p-2">ข้อ</td>
+                        <td class="p-2">ข้อมูล</td>
+                        <td class="p-2">รายละเอียดองค์ประกอบ</td>
+                        <td class="p-2">การเผยแพร่ข้อมูล</td>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr v-for="item in subsections13" :key="item.id">
                         <td>{{ item.ข้อ }}</td>
