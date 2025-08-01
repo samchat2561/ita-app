@@ -591,7 +591,7 @@ const fetchData = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/indicators9');
+        const response = await axios.get('http://202.29.230.21:3007/indicators9');
         indicators9.value = response.data;
         console.log(indicators9.value)
     } catch (err) {
@@ -606,7 +606,7 @@ const fetchData10 = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/indicators10');
+        const response = await axios.get('http://202.29.230.21:3007/indicators10');
         indicators10.value = response.data;
         console.log(indicators10.value)
     } catch (err) {
@@ -623,7 +623,7 @@ const fetchData2 = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators');
         sub_indicators.value = response.data;
         console.log(sub_indicators.value)
     } catch (err) {
@@ -640,7 +640,7 @@ const fetchData2b = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators2');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators2');
         sub_indicators2.value = response.data;
         console.log(sub_indicators2.value)
     } catch (err) {
@@ -655,7 +655,7 @@ const fetchData2c = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators3');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators3');
         sub_indicators3.value = response.data;
         console.log(sub_indicators3.value)
     } catch (err) {
@@ -670,7 +670,7 @@ const fetchData2d = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators4');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators4');
         sub_indicators4.value = response.data;
         console.log(sub_indicators4.value)
     } catch (err) {
@@ -685,7 +685,7 @@ const fetchData2e = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators5');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators5');
         sub_indicators5.value = response.data;
         console.log(sub_indicators5.value)
     } catch (err) {
@@ -700,7 +700,7 @@ const fetchData2f = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators6');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators6');
         sub_indicators6.value = response.data;
         console.log(sub_indicators6.value)
     } catch (err) {
@@ -715,7 +715,7 @@ const fetchData2g = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators7');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators7');
         sub_indicators7.value = response.data;
         console.log(sub_indicators7.value)
     } catch (err) {
@@ -730,7 +730,7 @@ const fetchData2h = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:30007/sub_indicators8');
+        const response = await axios.get('http://202.29.230.21:30007/sub_indicators8');
         sub_indicators8.value = response.data;
         console.log(sub_indicators8.value)
     } catch (err) {
@@ -745,7 +745,7 @@ const fetchData2i = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators9');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators9');
         sub_indicators9.value = response.data;
         console.log(sub_indicators9.value)
     } catch (err) {
@@ -760,7 +760,7 @@ const fetchData2j = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators10');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators10');
         sub_indicators10.value = response.data;
         console.log(sub_indicators10.value)
     } catch (err) {
@@ -775,7 +775,7 @@ const fetchData2k = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators11');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators11');
         sub_indicators11.value = response.data;
         console.log(sub_indicators11.value)
     } catch (err) {
@@ -790,7 +790,7 @@ const fetchData2l = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators12');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators12');
         sub_indicators12.value = response.data;
         console.log(sub_indicators12.value)
     } catch (err) {
@@ -805,7 +805,7 @@ const fetchData2m = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/sub_indicators13');
+        const response = await axios.get('http://202.29.230.21:3007/sub_indicators13');
         sub_indicators13.value = response.data;
         console.log(sub_indicators13.value)
     } catch (err) {
@@ -821,7 +821,7 @@ const fetchData3 = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections');
+        const response = await axios.get('http://202.29.230.21:3007/subsections');
         subsections.value = response.data;
         console.log(subsections.value)
     } catch (err) {
@@ -837,7 +837,7 @@ const fetchData3b = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections2');
+        const response = await axios.get('http://202.29.230.21:3007/subsections2');
         subsections2.value = response.data;
         console.log(subsections2.value)
     } catch (err) {
@@ -852,7 +852,7 @@ const fetchData3c = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections3');
+        const response = await axios.get('http://202.29.230.21:3007/subsections3');
         subsections3.value = response.data;
         console.log(subsections3.value)
     } catch (err) {
@@ -867,7 +867,7 @@ const fetchData3d = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections4');
+        const response = await axios.get('http://202.29.230.21:3007/subsections4');
         subsections4.value = response.data;
         console.log(subsections4.value)
     } catch (err) {
@@ -882,7 +882,7 @@ const fetchData3e = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections5');
+        const response = await axios.get('http://202.29.230.21:3007/subsections5');
         subsections5.value = response.data;
         console.log(subsections5.value)
     } catch (err) {
@@ -897,7 +897,7 @@ const fetchData3f = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections6');
+        const response = await axios.get('http://202.29.230.21:3007/subsections6');
         subsections6.value = response.data;
         console.log(subsections6.value)
     } catch (err) {
@@ -912,7 +912,7 @@ const fetchData3g = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections7');
+        const response = await axios.get('http://202.29.230.21:3007/subsections7');
         subsections7.value = response.data;
         console.log(subsections7.value)
     } catch (err) {
@@ -927,7 +927,7 @@ const fetchData3h = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections8');
+        const response = await axios.get('http://202.29.230.21:3007/subsections8');
         subsections8.value = response.data;
         console.log(subsections8.value)
     } catch (err) {
@@ -942,7 +942,7 @@ const fetchData3i = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections9');
+        const response = await axios.get('http://202.29.230.21:3007/subsections9');
         subsections9.value = response.data;
         console.log(subsections9.value)
     } catch (err) {
@@ -957,7 +957,7 @@ const fetchData3j = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections10');
+        const response = await axios.get('http://202.29.230.21:3007/subsections10');
         subsections10.value = response.data;
         console.log(subsections10.value)
     } catch (err) {
@@ -972,7 +972,7 @@ const fetchData3k = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections11');
+        const response = await axios.get('http://202.29.230.21:3007/subsections11');
         subsections11.value = response.data;
         console.log(subsections11.value)
     } catch (err) {
@@ -987,7 +987,7 @@ const fetchData3l = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections12');
+        const response = await axios.get('http://202.29.230.21:3007/subsections12');
         subsections12.value = response.data;
         console.log(subsections12.value)
     } catch (err) {
@@ -1002,7 +1002,7 @@ const fetchData3m = async () => {
     loading.value = true;
     error.value = null;
     try {
-        const response = await axios.get('http://localhost:3007/subsections13');
+        const response = await axios.get('http://202.29.230.21:3007/subsections13');
         subsections13.value = response.data;
         console.log(subsections13.value)
     } catch (err) {
@@ -1017,7 +1017,7 @@ onMounted(fetchData3m)
 //     loading.value = true;
 //     error.value = null;
 //     try {
-//         await axios.get(`http://localhost:3000/subsections`).then((response) => {
+//         await axios.get(`http://202.29.230.21:3000/subsections`).then((response) => {
 //             allindicators.value = response.data
 //             console.log(allindicators.value)
 //         })
